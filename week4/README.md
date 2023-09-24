@@ -24,4 +24,18 @@ Mengedit kode dengan add dan addAll agar menambahkan isi pada names1 dan names 2
 ![image](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/cdb2d48b-b304-407b-99c9-ba24c739f605)<br>
 <b>Hasil run :<br>
 ![image](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/efc7bba1-5bc7-45ba-9c2e-fbd6e512493d)
-## Praktikum 3
+## Praktikum 4
+### a
+![image](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/a3e06f7e-d598-4b91-9267-4409dbb165e2)
+**saya hanya memperbaiki print(list1); menjadi print(list);*
+<b>Hasil run :<br>
+*[1,2,3] di dapat dari memprint list *<br>
+*[0,1,2,3] didapat dari list2 yang memuat 0... sampai list([1,2,3])*<br>
+*4 didapat dari jumlah length list2*<br>
+### b
+karena operasi spread (...) tidak dapat digunakan pada list yang memiliki elemen null secara langsung dalam Dart. bahwa operasi spread tidak diperbolehkan pada list yang mengandung elemen null.
+Saat menggunakan ...?list1, tanda tanya (?) menandakan bahwa mengizinkan list1 untuk berisi null, tetapi operasi spread (...) tetap akan gagal jika list tersebut mengandung elemen null secara langsung.
+Jadi yang bisa saya lakukan adalah menghapus tanda’?’ pada list3
+![image](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/71fdd0a8-1e1c-477c-a6d7-cdd0ce2e7cae)
+<b>Hasil run :<br>
+![image](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/21c4323b-469b-4b59-b13e-f02f501ddce0)
