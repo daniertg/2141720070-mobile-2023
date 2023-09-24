@@ -6,12 +6,7 @@ void main(){
   var (a, b) = record;
   return (b, a);
 }
+// Record type annotation in a variable declaration:
+(String, int) mahasiswa;
+print(mahasiswa);
 }
-// // (int, int) tukar((int, int) record) {
-// //   var (a, b) = record;
-// //   return (b, a);
-// }
-// (int, int) tukar((int, int) record) {
-//   var (a, b) = record;
-//   return (b, a);
-// }
