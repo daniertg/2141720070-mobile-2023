@@ -140,7 +140,52 @@ void main() {
 
 ```
 #### 5.	Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
-Jawab:
+Jawab:<br>
+a.
+__Lexical Scope (Cakupan Lexical):__
+
+mengacu pada aturan tentang bagaimana variabel diakses berdasarkan struktur kode, terutama dalam hal bagaimana variabel didefinisikan di dalam fungsi dan bagaimana akses ke variabel tersebut ditentukan.
+
+__Contoh:__
+```dart
+var x = 10;
+
+void myFunction() {
+  print(x); // myFunction memiliki akses ke variabel x di luar fungsinya
+}
+
+myFunction(); // Output: 10
+
+```
+b. 
+Lexical Closures (Penutupan Lexical):
+terjadi ketika fungsi (inner function) dapat mengakses variabel dari lingkup (scope) yang lebih tinggi atau "menutup" lingkup lexical saat fungsi tersebut didefinisikan, dan fungsi tersebut dapat mempertahankan akses ke variabel tersebut bahkan setelah fungsi yang mengelilinginya selesai dieksekusi.
+ __Contoh:__
+```dart
+Function outer() {
+  var x = 10;
+  return () {
+    print(x); // Closure memiliki akses ke x dari lingkup lexical outer
+  };
+}
+
+var closure = outer();
+closure(); // Output: 10
+
+``` 
 #### 6.	Jelaskan dengan contoh cara membuat return multiple value di Functions!
 Jawab:
+```dart
+List<String> getNames() {
+  String firstName = "Dani";
+  String lastName = "Febrian";
+  return [firstName, lastName];
+}
 
+void main() {
+  var names = getNames();
+  print(names[0]);  
+  print(names[1]);  
+}
+
+```
