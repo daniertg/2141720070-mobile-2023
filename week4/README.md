@@ -42,19 +42,19 @@ Jadi yang bisa saya lakukan adalah menghapus tanda’?’ pada list3
 ## Praktikum 5
 ![image](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/7b5b3088-9af1-47e6-b116-b527a809c88b)<br>
 *kode tersebut untuk  memprint map yang sudah di buat*
-```
+```dart
 (int, int) tukar((int, int) record) {
   var (a, b) = record;
   return (b, a);
 ```
-```
+```dart
 // Record type annotation in a variable declaration:
 (String, int) mahasiswa= ('Febrian dani', 214172007);
 print(mahasiswa)
 ```
 <b>Hasil run :<br>
 ![image](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/d9512e2f-4f63-4a63-9b55-76ec4a793f5c)<br>
-```
+```dart
 var mahasiswa2 = ('first', a: 2, b: true, 'last');
 
 print(mahasiswa2.$1); // Prints 'first'
@@ -89,6 +89,7 @@ Jika seseorang mencoba membuat Scrollbar tanpa menentukan argumennya child, peng
 
 •	Parameter posisi opsional
 Membungkus sekumpulan parameter fungsi menandainya [] sebagai parameter posisi opsional. Jika Anda tidak memberikan nilai default, tipenya harus nullable karena nilai defaultnya adalah null:
+```dart
 String say(String from, String msg, [String? device]) {
   var result = '$from says $msg';
   if (device != null) {
@@ -96,7 +97,9 @@ String say(String from, String msg, [String? device]) {
   }
   return result;
 }
+```
 Berikut ini contoh pemanggilan fungsi ini tanpa parameter opsional:
+```dart
 assert(say('Bob', 'Howdy') == 'Bob says Howdy');
 Dan berikut contoh pemanggilan fungsi ini dengan parameter ketiga:
 assert(say('Bob', 'Howdy', 'smoke signal') ==
@@ -108,10 +111,11 @@ String say(String from, String msg, [String device = 'carrier pigeon']) {
 }
 
 assert(say('Bob', 'Howdy') == 'Bob says Howdy with a carrier pigeon');
+```
 #### 3.Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
 Jawab:
  "Functions sebagai first-class objects" mengacu pada kemampuan untuk memperlakukan fungsi sebagaimana halnya dengan tipe data lainnya seperti integer, string, atau objek. Ini berarti Anda dapat menggunakannya dalam berbagai cara yang mirip dengan cara Anda menggunakan tipe data lainnya.
- ```
+ ```dart
 void sayHello() {
   print("Hello, World!");
 }
@@ -123,7 +127,7 @@ greetingFunction(); // Memanggil fungsi melalui variabel
 #### 4.	Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
 Jawab :
 Anonymous function (fungsi anonim) dalam Dart adalah fungsi yang tidak memiliki nama.Biasanya digunakan untuk melakukan tugas sederhana atau operasi yang tidak memerlukan definisi fungsi terpisah.
-```
+```dart
 void main() {
   // Contoh penggunaan anonymous function untuk menjumlahkan dua angka
   var add = (int a, int b) {
