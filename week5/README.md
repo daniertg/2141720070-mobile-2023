@@ -63,3 +63,7 @@ class TugasNo2 extends StatelessWidget {
 ![Screenshot 2023-10-01 064024](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/1815c137-da0f-4ee6-a629-5d892ec1e149)<br>
 
 ## 2 Selesaikan Codelabs: Your first Flutter app, lalu buatlah laporan praktikumnya dan push ke repository GitHub Anda!
+
+![Untitled video - Made with Clipchamp (1)](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/e682f065-7b39-48af-96ae-6668a416c196)
+
+### [Link repository](https://github.com/daniertg/2141720070-mobile-2023/tree/master/week5/namer_app)
