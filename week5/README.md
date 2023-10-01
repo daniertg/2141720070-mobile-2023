@@ -1,4 +1,8 @@
-## Week 5
+| Nama | Kelas | NIM |
+| ---- | ---- | ---- |
+| Febrian Dani Ritonga | 3H | 2141720070|
+# Week 5
+# Praktikum
 ## Praktikum 1
 membuat project hellow_word<br>
 ![Screenshot 2023-09-29 141930](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/8d7ee1dd-70c3-4ab8-bf5f-3fc9fc78ac65)
@@ -23,4 +27,39 @@ mengubah menjadi nama lengkap<br>
 ### Langkah 5: Input dan Selection Widget
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/9294f9ce-1f6c-430a-be93-3ab35fc5d6c5" width="350" height="540"><br>
 ### Langkah 6: Date and Time Pickers
-![Untitled video - Made with Clipchamp](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/c7c23b27-a227-45ee-bed3-04d016559035)
+![Untitled video - Made with Clipchamp](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/c7c23b27-a227-45ee-bed3-04d016559035)<br>
+# Tugas
+## 1.Pada praktikum 4 mulai dari Langkah 3 sampai 6, buatlah file widget tersendiri di folder basic_widgets, kemudian pada file main.dart cukup melakukan import widget sesuai masing-masing langkah tersebut!
+```dart
+import 'package:flutter/material.dart';
+import 'basic_widgets/date_time_pickers.dart';
+import 'basic_widgets/dialog_widget.dart';
+import 'basic_widgets/input_selection_widget.dart';
+import 'basic_widgets/scaffold_widget.dart';
+
+void main() {
+  runApp(const TugasNo2());
+}
+
+class TugasNo2 extends StatelessWidget {
+  const TugasNo2({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: Row(
+        children: [
+          Expanded(child: MyScaffoldWidget()),
+          Expanded(child: MyDialogWidget()),
+          Expanded(child: MyInputSelectionWidget()),
+          Expanded(child: MyDateTimePickers()),
+        ],
+      ),
+    );
+  }
+}
+```
+![Screenshot 2023-10-01 064109](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/64dd4546-d6f1-4144-9053-1c7ed94ce177)<br>
+![Screenshot 2023-10-01 064024](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/1815c137-da0f-4ee6-a629-5d892ec1e149)<br>
+
+## 2 Selesaikan Codelabs: Your first Flutter app, lalu buatlah laporan praktikumnya dan push ke repository GitHub Anda!
