@@ -67,3 +67,7 @@ class TugasNo2 extends StatelessWidget {
 ![Untitled video - Made with Clipchamp (1)](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/e682f065-7b39-48af-96ae-6668a416c196)
 
 ### [Link repository](https://github.com/daniertg/2141720070-mobile-2023/tree/master/week5/namer_app)
+
+## 3 Tampilan dalam bentuk device (android pixel)
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/4487a64e-e0d3-45a5-b238-15b910bb181f" width="300" height="450">
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/13e3b8ea-6b4c-4849-9da3-010e9cb96024" width="300" height="450"><br>
