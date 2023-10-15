@@ -21,3 +21,7 @@
 
 # Tugas
 ### 1. Silakan implementasikan di project baru "basic_layout_flutter" dengan mengakses sumber ini: https://docs.flutter.dev/codelabs/layout-basics
+
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/ea44be1b-4b63-4f84-bdd4-8fbb5bae4e3c" width="320" height="660"><br>
+
+### [Link Repository](https://github.com/daniertg/2141720070-mobile-2023/tree/master/week7/src/basic_layout_flutter)
