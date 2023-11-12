@@ -34,3 +34,15 @@ Jawab: bertujuan untuk menambahkan dua method pada class Plan dalam file plan.da
 Jawab: Setelah melalui langkah-langkah tersebut, aplikasi Flutter menggunakan InheritedNotifier untuk manajemen state yang terpusat. Di layar PlanScreen, kemajuan rencana sekarang terlihat dengan jelas di bagian bawah halaman, dan perubahan pada data rencana yang diatur oleh ValueNotifier secara otomatis memicu pembaruan UI.
 <br>
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/41e2bb46-aed4-4b54-8b91-85fa9b2d5a1d" width="410" height="580"><br>
+
+# Praktikum 3 Tugas
+1. Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
+![image](https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/cad855cb-c2ab-48d8-b2d1-56893e88d4ec)<br>
+
+Jawab : Di sebelah kiri, diagram struktur widget menggambarkan tampilan aplikasi saat pengguna membuat rencana baru. Ketika pengguna berinteraksi dengan layar pencipta rencana (PlanCreatorScreen), mereka dapat menggunakan berbagai elemen seperti TextField dan Expanded yang terdapat dalam sebuah Column. Penyusunan data rencana dan tampilan daftar rencana diatur oleh PlanProvider, yang merupakan bagian dari widget tree di bawah MaterialApp. Saat pengguna beralih ke tampilan utama aplikasi (PlanScreen) di sebelah kanan, mereka dapat melihat daftar rencana yang telah dibuat sebelumnya. Data rencana tetap dikelola oleh PlanProvider, yang berada di root widget tree untuk memfasilitasi akses lintas tampilan. Dalam struktur tampilan, elemen-elemen disusun menggunakan Column, Expanded, dan SafeArea, termasuk daftar rencana yang ditampilkan melalui ListView. Di bawah area aman, terdapat elemen teks yang mungkin menampilkan pesan terkait kelengkapan rencana.
+<br>
+
+2. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!<br>
+Jawab : 
+<br>
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/b29f8fc8-e2b2-46e8-9000-2ad20c188434" width="400" height="580"><br>
