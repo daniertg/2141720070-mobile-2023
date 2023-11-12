@@ -1,16 +1,28 @@
 import 'package:flutter/material.dart';
-import './views/plan_screen.dart';
+import 'package:master_plan/models/plan.dart';
+import 'package:master_plan/provider/plan_provider.dart';
+import 'package:master_plan/views/plan_creator_screen.dart';
 
-void main() => runApp(MasterPlanApp());
+void main() {
+  runApp(const MasterPlanApp());
+}
 
 class MasterPlanApp extends StatelessWidget {
   const MasterPlanApp({super.key});
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(primarySwatch: Colors.purple),
-      home: PlanScreen(),
+    return PlanProvider(
+      notifier: ValueNotifier<List<Plan>>(const []),
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'State management app',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: const PlanCreatorScreen(),
+      ),
     );
   }
 }
