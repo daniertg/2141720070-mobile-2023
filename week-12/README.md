@@ -106,5 +106,13 @@ Jawab :
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/742b77e8-5ec9-4c53-89c4-3689c5031656" width="310" height="580"><br>
 
 # Praktikum 8
+1. Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+```dart
+title: const Text('Navigation First Screen Dani'),
+```
+```dart
+title: const Text('Navigation Second Screen Dani'),
+```
+2. Silakan ganti dengan warna tema favorit Anda.
 
 # Praktikum 9
