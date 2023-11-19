@@ -67,6 +67,13 @@ Perbedaan kode langkah 1 dan kode langkah 4 adalah pada penggunaan variabel futu
 
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/4f9ec573-d6df-47b7-ab8f-77146be74701" width="310" height="580"><br>
 
+2. Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
+
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/e6ff20ec-9cd3-4265-a884-36858ef54783" width="310" height="580"><br>
+
+- Perbedaan kode langkah 1 dan kode langkah 4 adalah pada penanganan error. Pada langkah 1, method returnError() tidak menangani error yang terjadi. Jika error terjadi, maka method tersebut akan berhenti dan tidak mengembalikan nilai apa pun.
+
+- Sedangkan pada langkah 4, method handleError() menangani error yang terjadi dengan menggunakan try-catch-finally. Pada try block, method handleError() mencoba untuk menjalankan method returnError(). Jika error terjadi, maka try block akan berhenti dan error akan ditangkap oleh catch block. Pada catch block, method handleError() akan menampilkan error ke layar menggunakan print(). Finally block akan selalu dijalankan, terlepas dari apakah ada error yang terjadi atau tidak.
 
 # Praktikum 6
 
