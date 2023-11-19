@@ -35,3 +35,20 @@ Langkah 2 Kode di atas adalah sebuah fungsi asynchronous bernama count() yang di
 
 2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4<br>
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/4802cf81-769d-4fd1-9da2-34e778d6bd18" width="310" height="580"><br>
+
+# Praktikum 3
+1. Jelaskan maksud kode langkah 2 tersebut!
+Pada langkah 2 di class _FuturePageState, ada penambahan variabel completer serta method getNumber() dan calculate().
+- Variabel completer, bertipe Completer, digunakan untuk menampung hasil perhitungan angka 42. 
+- Method getNumber() mengembalikan nilai dari variabel completer, terdiri dari langkah-langkah inisialisasi variabel completer dengan nilai baru dan pemanggilan method calculate() untuk menghitung angka 42.
+- Sementara method calculate() menggunakan Future.delayed() selama 5 detik sebelum menyelesaikan perhitungan angka 42. Setelah 5 detik, method ini memanggil completer.complete() untuk menyelesaikan perhitungan dan mengembalikan nilai 42 ke variabel completer.
+2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/689e9870-c10d-4efa-8909-467e44a65954" width="310" height="580"><br>
+
+# Praktikum 4
+
+# Praktikum 5
+# Praktikum 6
+# Praktikum 7
+# Praktikum 8
+# Praktikum 9
