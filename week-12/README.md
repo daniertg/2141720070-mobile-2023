@@ -76,6 +76,8 @@ Perbedaan kode langkah 1 dan kode langkah 4 adalah pada penggunaan variabel futu
 - Sedangkan pada langkah 4, method handleError() menangani error yang terjadi dengan menggunakan try-catch-finally. Pada try block, method handleError() mencoba untuk menjalankan method returnError(). Jika error terjadi, maka try block akan berhenti dan error akan ditangkap oleh catch block. Pada catch block, method handleError() akan menampilkan error ke layar menggunakan print(). Finally block akan selalu dijalankan, terlepas dari apakah ada error yang terjadi atau tidak.
 
 # Praktikum 6
+1. Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/680f54e9-b377-446c-ac8b-46d23017ebdd" width="310" height="580"><br>
 
 # Praktikum 7
 
