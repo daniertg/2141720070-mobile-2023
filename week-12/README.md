@@ -76,7 +76,7 @@ Perbedaan kode langkah 1 dan kode langkah 4 adalah pada penggunaan variabel futu
 - Sedangkan pada langkah 4, method handleError() menangani error yang terjadi dengan menggunakan try-catch-finally. Pada try block, method handleError() mencoba untuk menjalankan method returnError(). Jika error terjadi, maka try block akan berhenti dan error akan ditangkap oleh catch block. Pada catch block, method handleError() akan menampilkan error ke layar menggunakan print(). Finally block akan selalu dijalankan, terlepas dari apakah ada error yang terjadi atau tidak.
 
 # Praktikum 6
-1. Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+1. Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda. <br>
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/680f54e9-b377-446c-ac8b-46d23017ebdd" width="310" height="580"><br>
 
 2. Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
@@ -97,6 +97,13 @@ Kedua praktikum menampilkan layout serupa untuk koordinat Geolokasi dengan penga
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/d9c9848d-d3ad-49af-be3e-b0406f57ce7c" width="310" height="580"><br>
 
 3. Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
+
+4. Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?<br>
+Jawab : 
+> Langkah ini tidak mengubah tampilan UI. Hal ini karena langkah ini hanya menambahkan fungsi handleError() yang akan dijalankan jika terjadi kesalahan. Namun, pada langkah ini tidak ada kesalahan yang terjadi selama pemrosesan data lokasi. Oleh karena itu, pesan kesalahan "Something terrible happened!" tidak akan ditampilkan.
+
+5. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 14"
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/742b77e8-5ec9-4c53-89c4-3689c5031656" width="310" height="580"><br>
 
 # Praktikum 8
 
