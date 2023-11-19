@@ -89,6 +89,14 @@ Ya, karena perizinan akses lokasi juga ada di browser
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/f0a385c6-ae23-485f-a58c-133d0c70917f" width="310" height="580"><br>
 
 # Praktikum 7
+1. Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+
+Kedua praktikum menampilkan layout serupa untuk koordinat Geolokasi dengan pengambilan lokasi pengguna pada awal aplikasi. Dalam pembaruan UI, setState pada kasus pertama memperbarui variabel state myPosition, sementara pada kasus kedua, FutureBuilder mengelola pembaruan UI secara otomatis. Walaupun begitu, hasil tampilan UI pada akhirnya sama karena keduanya mengalami penundaan selama 3 detik.
+
+2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 13".
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/d9c9848d-d3ad-49af-be3e-b0406f57ce7c" width="310" height="580"><br>
+
+3. Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
 
 # Praktikum 8
 
