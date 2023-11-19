@@ -47,13 +47,23 @@ class _FuturePageState extends State<FuturePage> {
           ElevatedButton(
             child: const Text('GO!'),
             onPressed: () {
-              getNumber().then((value) {
+              returnError().then((value) {
                 setState(() {
-                  result = value.toString();
+                  result = 'Success';
                 });
-              }).catchError((e) {
-                result = 'An error occurred';
-              });
+              }).catchError((onError) {
+                setState(() {
+                  result = onError.toString();
+                });
+              }).whenComplete(() => print('Complete'));
+              // returnFG();
+              // getNumber().then((value) {
+              //   setState(() {
+              //     result = value.toString();
+              //   });
+              // }).catchError((e) {
+              //   result = 'An error occurred';
+              // });
               // count();
               // setState(() {});
               // getData().then((value) {
@@ -73,6 +83,23 @@ class _FuturePageState extends State<FuturePage> {
         ]),
       ),
     );
+  }
+
+  void returnFG() {
+    FutureGroup<int> futureGroup = FutureGroup<int>();
+    futureGroup.add(returnOneAsync());
+    futureGroup.add(returnTwoAsync());
+    futureGroup.add(returnThreeAsync());
+    futureGroup.close();
+    futureGroup.future.then((List<int> value) {
+      int total = 0;
+      for (var element in value) {
+        total += element;
+      }
+      setState(() {
+        result = total.toString();
+      });
+    });
   }
 
   Future<Response> getData() async {
@@ -122,5 +149,10 @@ class _FuturePageState extends State<FuturePage> {
     } catch (_) {
       completer.completeError({});
     }
+  }
+
+  Future returnError() async {
+    await Future.delayed(const Duration(seconds: 2));
+    throw Exception('Something terrrible happened!');
   }
 }

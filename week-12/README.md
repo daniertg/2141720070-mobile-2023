@@ -55,9 +55,23 @@ Pada langkah 2 di class _FuturePageState, ada penambahan variabel completer sert
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/036a67b2-45c6-4028-b7c0-350d6790be22" width="310" height="580"><br>
 
 # Praktikum 4
+1. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7".
 
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/aa18b7c5-13de-4523-9aad-18e90a5efd03" width="310" height="580"><br>
+
+2. Jelaskan maksud perbedaan kode langkah 1 dan 4!
+
+Perbedaan kode langkah 1 dan kode langkah 4 adalah pada penggunaan variabel futureGroup. Pada langkah 1, variabel futureGroup digunakan untuk menampung FutureGroup. FutureGroup adalah sebuah objek yang dapat digunakan untuk mengelompokkan beberapa Future bersama-sama. Sedangkan pada langkah 4, variabel futureGroup diganti dengan Future.wait(). Future.wait() adalah sebuah fungsi yang dapat digunakan untuk menunggu beberapa Future selesai dijalankan.
 # Praktikum 5
+1. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 9".
+
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/4f9ec573-d6df-47b7-ab8f-77146be74701" width="310" height="580"><br>
+
+
 # Praktikum 6
+
 # Praktikum 7
+
 # Praktikum 8
+
 # Praktikum 9
