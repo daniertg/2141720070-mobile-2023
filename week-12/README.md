@@ -79,6 +79,15 @@ Perbedaan kode langkah 1 dan kode langkah 4 adalah pada penggunaan variabel futu
 1. Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/680f54e9-b377-446c-ac8b-46d23017ebdd" width="310" height="580"><br>
 
+2. Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+```dart 
+await Future.delayed(const Duration(seconds: 3));
+```
+3. Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+Ya, karena perizinan akses lokasi juga ada di browser
+4. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/f0a385c6-ae23-485f-a58c-133d0c70917f" width="310" height="580"><br>
+
 # Praktikum 7
 
 # Praktikum 8
