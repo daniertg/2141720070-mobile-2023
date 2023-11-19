@@ -19,3 +19,19 @@ substring() mengambil bagian string dari indeks awal hingga akhir dengan dua par
 3(b). Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan <br>
 Jawab : <br>
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/6e3b5edb-b9a2-4a98-8a1c-038414444b60" width="310" height="580"><br>
+
+# Praktikum 2
+1. Jelaskan maksud kode langkah 1 dan 2 tersebut!<br>
+
+Jawab :
+
+Langkah 1 Kode di atas adalah kode Dart yang terdiri dari tiga fungsi asynchronous, yaitu returnOneAsync(), returnTwoAsync(), dan returnThreeAsync(). Ketiga fungsi ini mengembalikan nilai int dan menggunakan Future.delayed() untuk menunda eksekusi selama 3 detik. Berikut adalah penjelasan masing-masing fungsi:
+
+* returnOneAsync() Fungsi ini mengembalikan nilai 1 setelah 3 detik.
+* returnTwoAsync() Fungsi ini mengembalikan nilai 2 setelah 3 detik.
+* returnThreeAsync() Fungsi ini mengembalikan nilai 3 setelah 3 detik. <br>
+
+Langkah 2 Kode di atas adalah sebuah fungsi asynchronous bernama count() yang digunakan untuk menghitung jumlah dari tiga fungsi asynchronous lainnya, yaitu returnOneAsync(), returnTwoAsync(), dan returnThreeAsync(). Fungsi count() ini mengembalikan Future, yang berarti bahwa eksekusinya tidak akan memblokir kode lainnya.
+
+2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4<br>
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/4802cf81-769d-4fd1-9da2-34e778d6bd18" width="310" height="580"><br>
