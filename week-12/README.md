@@ -42,7 +42,7 @@ Pada langkah 2 di class _FuturePageState, ada penambahan variabel completer sert
 - Variabel completer, bertipe Completer, digunakan untuk menampung hasil perhitungan angka 42. 
 - Method getNumber() mengembalikan nilai dari variabel completer, terdiri dari langkah-langkah inisialisasi variabel completer dengan nilai baru dan pemanggilan method calculate() untuk menghitung angka 42.
 - Sementara method calculate() menggunakan Future.delayed() selama 5 detik sebelum menyelesaikan perhitungan angka 42. Setelah 5 detik, method ini memanggil completer.complete() untuk menyelesaikan perhitungan dan mengembalikan nilai 42 ke variabel completer.
-2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".
+2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".<br>
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/689e9870-c10d-4efa-8909-467e44a65954" width="310" height="580"><br>
 
 3. Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
@@ -51,7 +51,7 @@ Pada langkah 2 di class _FuturePageState, ada penambahan variabel completer sert
 
 - Langkah 6 Pada langkah 6, kita mengganti kode di method onPressed(). Method onPressed() sebelumnya menggunakan then() untuk menangani hasil dari method getNumber(). Namun, method ini tidak menangani kesalahan yang mungkin terjadi saat memanggil method getNumber(). Kode ini menggunakan then() dan catchError() untuk menangani hasil dari method getNumber(). Jika tidak terjadi kesalahan, maka method ini akan memanggil method setState() untuk memperbarui state dari widget. Jika terjadi kesalahan, maka method ini akan memanggil method setState() untuk memperbarui state dari widget dan menampilkan pesan kesalahan.
 
-4. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
+4. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".<br>
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/036a67b2-45c6-4028-b7c0-350d6790be22" width="310" height="580"><br>
 
 # Praktikum 4
@@ -85,7 +85,7 @@ await Future.delayed(const Duration(seconds: 3));
 ```
 3. Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
 Ya, karena perizinan akses lokasi juga ada di browser
-4. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
+4. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".<br>
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/f0a385c6-ae23-485f-a58c-133d0c70917f" width="310" height="580"><br>
 
 # Praktikum 7
@@ -93,7 +93,7 @@ Ya, karena perizinan akses lokasi juga ada di browser
 
 Kedua praktikum menampilkan layout serupa untuk koordinat Geolokasi dengan pengambilan lokasi pengguna pada awal aplikasi. Dalam pembaruan UI, setState pada kasus pertama memperbarui variabel state myPosition, sementara pada kasus kedua, FutureBuilder mengelola pembaruan UI secara otomatis. Walaupun begitu, hasil tampilan UI pada akhirnya sama karena keduanya mengalami penundaan selama 3 detik.
 
-2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 13".
+2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 13".<br>
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/d9c9848d-d3ad-49af-be3e-b0406f57ce7c" width="310" height="580"><br>
 
 3. Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
@@ -102,7 +102,7 @@ Kedua praktikum menampilkan layout serupa untuk koordinat Geolokasi dengan penga
 Jawab : 
 > Langkah ini tidak mengubah tampilan UI. Hal ini karena langkah ini hanya menambahkan fungsi handleError() yang akan dijalankan jika terjadi kesalahan. Namun, pada langkah ini tidak ada kesalahan yang terjadi selama pemrosesan data lokasi. Oleh karena itu, pesan kesalahan "Something terrible happened!" tidak akan ditampilkan.
 
-5. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 14"
+5. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 14" <br>
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/742b77e8-5ec9-4c53-89c4-3689c5031656" width="310" height="580"><br>
 
 # Praktikum 8
@@ -114,5 +114,12 @@ title: const Text('Navigation First Screen Dani'),
 title: const Text('Navigation Second Screen Dani'),
 ```
 2. Silakan ganti dengan warna tema favorit Anda.
+3. Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+jawab :
+> ketika warna ditekan maka berubah menjadi warna yg tetapkan pada onpresed dan warna tombol bisa diubah juga hal tersebut karena saat menekan tombol "change color" menuju pada file navigation_second.dart
+4. Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+
+5. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".<br>
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/e1564e45-6be6-492d-896a-f2af261d88b8" width="310" height="580"><br>
 
 # Praktikum 9
