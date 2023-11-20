@@ -43,3 +43,24 @@ final List<Color> colors = [
 - listen digunakan untuk mendaftarkan fungsi callback yang dipanggil setiap kali ada data baru di Stream.
 - await for digunakan untuk mengambil nilai secara berurutan dari Stream dalam loop async, menunggu hingga data tersedia dan memprosesnya satu per satu.
 2. Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
+
+# Praktikum 2
+### Soal 6
+1. Jelaskan maksud kode langkah 8 dan 10 tersebut!
+Langkah 8:
+
+- Membuat NumberStream dengan StreamController dan mengambil Stream dari controller tersebut.
+- Memantau perubahan dalam Stream dengan listen dan meng-update nilai lastNumber setiap kali ada data baru.
+
+Langkah 10:
+
+- Fungsi addRandomNumber() digunakan untuk menambahkan nomor acak ke dalam Stream.
+- Menggunakan objek Random untuk menghasilkan nomor acak antara 0 hingga 9.
+- Memasukkan nomor acak tersebut ke dalam Stream melalui StreamController menggunakan addNumberToSink().
+
+Jadi, langkah 8 digunakan untuk memantau perubahan dalam Stream, sementara langkah 10 menunjukkan cara untuk menambahkan nilai ke dalam Stream tersebut menggunakan StreamController.
+
+2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README.<br>
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/9db7239a-977c-4902-b0a2-a84b316e888c" width="300" height="580"><br>
+
+3. Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6".
