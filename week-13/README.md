@@ -11,3 +11,16 @@
 2. Gantilah warna tema aplikasi sesuai kesukaan Anda.
 
 3. Lakukan commit hasil jawaban Soal 1 dengan pesan "W13: Jawaban Soal 1"
+
+4. Tambahkan 5 warna lainnya sesuai keinginan Anda pada variabel colors tersebut.
+```dart
+final List<Color> colors = [
+    Colors.blue,
+    Colors.amber,
+    Colors.deepPurple,
+    Colors.red,
+    Colors.teal,
+  ];
+```
+
+5. Lakukan commit hasil jawaban Soal 2 dengan pesan "W13: Jawaban Soal 2"
