@@ -34,6 +34,12 @@ final List<Color> colors = [
 3. Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3" <br>
 
 ### Soal 4
-1. Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+1. Capture hasil praktikum Anda berupa GIF dan lampirkan di README.<br>
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/e1accc7d-179f-4016-938d-3e857f373af4" width="310" height="580"><br>
 2. Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"
+
+### Soal 5
+1. Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
+- listen digunakan untuk mendaftarkan fungsi callback yang dipanggil setiap kali ada data baru di Stream.
+- await for digunakan untuk mengambil nilai secara berurutan dari Stream dalam loop async, menunggu hingga data tersedia dan memprosesnya satu per satu.
+2. Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
