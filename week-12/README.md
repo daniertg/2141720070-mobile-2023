@@ -123,3 +123,9 @@ jawab :
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/e1564e45-6be6-492d-896a-f2af261d88b8" width="310" height="580"><br>
 
 # Praktikum 9
+1. Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+maka membuat menu dalam bentuk pop up yg mengarah ke navigation_dialog.dart
+2. Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+
+3. Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 17".<br>
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/40b9ff65-5976-406f-9399-f8b2b6d35227" width="310" height="580"><br>
