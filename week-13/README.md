@@ -64,3 +64,22 @@ Jadi, langkah 8 digunakan untuk memantau perubahan dalam Stream, sementara langk
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/9db7239a-977c-4902-b0a2-a84b316e888c" width="300" height="580"><br>
 
 3. Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6".
+
+### Soal 7
+1. Jelaskan maksud kode langkah 13 sampai 15 tersebut!
+- Langkah 13
+> Kode pada langkah 13 akan menambahkan pesan error ke sink controller. Sink adalah saluran yang digunakan untuk mengirim data ke StreamController. Dalam kasus ini, data yang dikirim adalah pesan error "error".
+
+- Langkah 15
+> Kode pada langkah 15 akan menambahkan pesan error ke sink numberStream. numberStream adalah StreamController yang digunakan untuk mengirim data berupa angka. Dalam kasus ini, data yang dikirim adalah pesan error "error".
+
+2. Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
+```dart
+void addRandomNumber() {
+    Random random = Random();
+    int myNum = random.nextInt(10);
+    numberStream.addNumberToSink(myNum);
+    // numberStream.addError();
+  }
+```
+3.  Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
