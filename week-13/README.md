@@ -32,4 +32,8 @@ final List<Color> colors = [
 2. Apa maksud isi perintah kode tersebut?
 > Kode tersebut mendefinisikan sebuah fungsi getColors() yang mengembalikan Stream<Color> secara asinkron. Di dalamnya, Stream.periodic digunakan untuk membuat stream yang akan menghasilkan nilai setiap detik selama durasi yang ditentukan (Duration(seconds: 1)). Kemudian, fungsi (int t) yang diberikan ke Stream.periodic akan dipanggil setiap kali stream mengeluarkan nilai, dan nilai yang dikirimkan adalah elemen dari daftar warna (colors).
 3. Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3" <br>
+
+### Soal 4
+1. Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/e1accc7d-179f-4016-938d-3e857f373af4" width="310" height="580"><br>
+2. Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"
