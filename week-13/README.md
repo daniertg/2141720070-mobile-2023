@@ -107,4 +107,18 @@ void addRandomNumber() {
 
 2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README.<br>
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/cd0b01d6-d7eb-42ba-a73d-36e42abda5bd" width="300" height="580"><br>
+
 3. Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
+
+# Praktikum 5
+
+### Soal 10
+1. Jelaskan mengapa error itu bisa terjadi ?
+> Kesalahan itu timbul saat mencoba menambah atau membuat dua langganan pada stream yang identik, tanpa mencabut langganan sebelumnya. Hal ini terjadi ketika langganan kedua diinisialisasi pada metode initState(), karena telah ada inisialisasi langganan sebelumnya yang menangani stream yang sama secara bersamaan.
+### Soal 11
+1. Jelaskan mengapa hal itu bisa terjadi ?
+> Ketika tombol "New Random Number" ditekan, hasilnya adalah dua angka acak yang sama. Angka-angka ini merupakan output dari stream yang diakses oleh objek subscription dan subscription2. Stream tersebut menghasilkan nilai dalam bentuk event (angka acak) yang dipisahkan oleh tanda "-". Saat tombol "Stop Stream" ditekan, langganan terhadap stream dihentikan. Dampaknya adalah stream tidak akan lagi mengeluarkan output, meskipun tombol "New Random Number" tetap ditekan.
+2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README.<br>
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/d3b609b5-daa7-4a1c-ae37-6aa041aebf3f" width="300" height="580"><br>
+
+3. Lalu lakukan commit dengan pesan "W13: Jawaban Soal 10,11".
