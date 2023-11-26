@@ -83,3 +83,15 @@ void addRandomNumber() {
   }
 ```
 3.  Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
+
+# Praktikum 3
+### Soal 8
+1. Jelaskan maksud kode langkah 1-3 tersebut!
+> Tahapan 1: Di langkah awal ini, penambahan variabel baru bernama transformer dilakukan di dalam class _StreamHomePageState. Variabel ini berperan menyimpan objek StreamTransformer.
+
+> Tahapan 2: Selanjutnya, di langkah kedua, dilakukan penambahan kode yang bertujuan menciptakan objek StreamTransformer. Objek ini memiliki fungsi untuk mengubah data yang mengalir melalui stream. Dalam situasi ini, data integer akan diubah menjadi integer yang dikalikan dengan 10.
+
+> Tahapan 3: Terakhir, di langkah ketiga, terdapat pengeditan pada kode initState(). Disini ditambahkan kode untuk memanfaatkan objek transformer guna mengubah data yang mengalir melalui stream.
+2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README.<br>
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/5ce8bd50-d528-4ecf-83b8-c66898319a06" width="300" height="580"><br>
+3. Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
