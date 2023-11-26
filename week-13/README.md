@@ -134,3 +134,19 @@ void addRandomNumber() {
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/c49399f8-14f3-440a-ac64-d100a20b72c9" width="300" height="580"><br>
 
 3. Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
+
+# Praktikum 7
+1. Jelaskan maksud praktikum ini ! Dimanakah letak konsep pola BLoC-nya ?
+
+> Kelas RandomNumberBloc merupakan implementasi dari BLoC yang menggunakan dua StreamController: satu untuk mengendalikan input events (_generateRandomController), dan satu lagi untuk mengatur output (_randomNumberController). _generateRandomController bertugas mengirimkan events yang memicu pembangkitan nomor acak, sedangkan _randomNumberController mengontrol output stream yang berisi nomor acak yang dihasilkan.
+
+> Kelas MyHomePage adalah antarmuka pengguna yang sederhana dan tidak secara langsung terlibat dalam logika bisnis. Kelas ini tidak memiliki logika spesifik terkait BLoC. Namun, dalam pengembangan aplikasi yang lebih kompleks, logika bisnis dapat dipindahkan ke dalam BLoC untuk mempertahankan struktur dan pemisahan tanggung jawab.
+
+> Kelas RandomScreen, pada sisi lain, merupakan antarmuka pengguna yang menggunakan RandomNumberBloc. State dari widget ini dikontrol oleh stream yang dihasilkan oleh _bloc.randomNumber. Ketika event dikirim melalui _bloc.generateRandom, nomor acak baru dihasilkan dan diperbarui dalam UI. Dengan memisahkan logika bisnis ke dalam RandomNumberBloc, antarmuka pengguna dapat fokus pada tampilan dan menanggapi perubahan state.
+
+> Pemanggilan BLoC di main.dart: BLoC (RandomNumberBloc) diinisialisasi dan dimiliki oleh _RandomScreenState. Saat tombol tindakan pada antarmuka pengguna ditekan, pemanggilan _bloc.generateRandom.add(null) memicu pembangkitan nomor acak melalui BLoC.
+
+2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README.<br>
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/00b3cbb8-44dc-4c70-9ae3-e8a112125361" width="300" height="580"><br>
+
+3. Lalu lakukan commit dengan pesan "W13: Jawaban Soal 13".
