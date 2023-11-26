@@ -95,3 +95,16 @@ void addRandomNumber() {
 2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README.<br>
 <img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/5ce8bd50-d528-4ecf-83b8-c66898319a06" width="300" height="580"><br>
 3. Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
+
+# Praktikum 4
+1. Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!
+
+> Langkah 2: Di langkah ini, kode tambahan dibuat untuk menginisiasi objek NumberStream dan NumberStreamController. Objek NumberStream akan berfungsi sebagai generator stream integer secara acak. Sementara itu, objek NumberStreamController akan bertanggung jawab mengontrol aliran dari stream tersebut.
+
+> Langkah 6: Pada langkah ini, ditambahkan kode untuk melakukan pembatalan subscription di dalam metode dispose(). Tindakan pembatalan subscription ini penting untuk mencegah terjadinya memory leak.
+
+> Langkah 8: Dalam tahapan ini, kode tambahan disisipkan untuk melakukan pengecekan apakah stream telah ditutup sebelum data ditambahkan ke dalamnya. Jika terjadi penutupan pada stream, maka nilai variabel lastNumber akan diubah menjadi -1.
+
+2. Capture hasil praktikum Anda berupa GIF dan lampirkan di README.<br>
+<img src="https://github.com/daniertg/2141720070-mobile-2023/assets/87335182/cd0b01d6-d7eb-42ba-a73d-36e42abda5bd" width="300" height="580"><br>
+3. Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
